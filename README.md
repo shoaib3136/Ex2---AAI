@@ -62,7 +62,7 @@ cpd_johncalls = TabularCPD(
 cpd_marycalls = TabularCPD(
     variable="MaryCalls",
     variable_card=2,
-    values=[[0.1, 0.7], [0.9, 0.3]],
+    values=[[0.9, 0.3], [0.1, 0.7]],
     evidence=["Alarm"],
     evidence_card=[2],
 )
@@ -95,7 +95,7 @@ ii.)
 
 iii.)
 
-![image](https://github.com/shoaib3136/Ex2---AAI/assets/117919362/9e4dae27-f3b7-4ef3-ab18-9dc88a49d612)
+![image](https://github.com/shoaib3136/Ex2---AAI/assets/117919362/1b33443c-35fd-4518-a4e2-1b25559d7978)
 
 
 
